@@ -19,3 +19,5 @@ module.exports = app => {
     res.send(req.user);
   });
 };
+
+//mongodb+srv://prodUser:<password>@cluster0-swa96.mongodb.net/test?retryWrites=true&w=majority
