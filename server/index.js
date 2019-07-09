@@ -18,6 +18,8 @@ app.use(
     keys: [keys.cookieKey]
   })
 );
+
+//passport init
 app.use(passport.initialize());
 app.use(passport.session());
 
